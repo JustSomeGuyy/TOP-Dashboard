@@ -1,0 +1,47 @@
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 80%;
+}
+
+#header {
+    grid-column: 2;
+    background-color: blue;
+}
+
+#nav {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background-color: aqua;
+    height: 100vh;
+}
+
+#main {
+    background-color: blueviolet;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 15px;
+    min-width: 100px;
+    flex: 1;
+    margin-right: 3em;
+}
+
+.account {
+    
+}
